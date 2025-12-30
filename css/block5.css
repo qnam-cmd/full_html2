@@ -2,12 +2,45 @@
 /*block5*/
 /* div 클래스명 header 선택 */
 /* div는 생략가능 */
+
+/* header시작 */
 .header{
+    width: 100px; /* w100쓰고 탭하면 100px로자동입력*/
+    height: 100px; /* h100%쓰고 탭하면 100%자동 */
+
+    box-sizing: border-box;
     border: 1px solid #ff0000;
-}
+    }
+
+/* container시작 */
 .container{
+    height: calc( 100vh - 100px - 100px);
+    box-sizing: border-box;
     border: 1px dashed #ff00ff;
 }
+
+.container .shop-list{
+    margin: 0 auto; /* 부모의 가로가운데 */
+    max-width: 1200px; /* 최대 width */
+    box-sizing: border-box;
+    height: calc( 100vh - 100px - 100px - 2px )
+    
+}
+.container .shop-list ul{
+
+    /*가로세로 정렬시 설정, rid */
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+    grid-template-rows: repeat(2, minmax(30vh,auto));
+}
+
+.container .shop-list ul>li{
+    
+    box-sizing: border-box;
+    border: 1px solid #ff0000;
+}
+
+/* footer시작 */
 .footer{
     border: 1px dotted #00ff00
 }
