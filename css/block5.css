@@ -14,17 +14,18 @@
 
 /* container시작 */
 .container{
-    height: calc( 100vh - 100px - 100px);
+    /* height: calc( 100vh - 100px - 100px); */
     box-sizing: border-box;
     border: 1px dashed #ff00ff;
 }
 
 .container .shop-list{
+    /* 가로정렬 flex */
     margin: 0 auto; /* 부모의 가로가운데 */
     max-width: 1200px; /* 최대 width */
     box-sizing: border-box;
-    height: calc( 100vh - 100px - 100px - 2px )
-    
+    height: calc( 100vh - 100px - 100px - 2px );
+    background-color: #ffffff;
 }
 .container .shop-list ul{
 
@@ -32,6 +33,8 @@
     display: grid;
     grid-template-columns: repeat( 4, 1fr);
     grid-template-rows: repeat(2, minmax(30vh,auto));
+    gap: 1vw;
+    padding: 1vw;
 }
 
 .container .shop-list ul>li{
@@ -42,5 +45,8 @@
 
 /* footer시작 */
 .footer{
-    border: 1px dotted #00ff00
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px dotted #00ff00;
 }
