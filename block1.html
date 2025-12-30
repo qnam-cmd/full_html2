@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block</title>
+    <style>
+        /* css 주석 */
+        /* 내부 스타일(css설정) */
+        div{
+            border: 1px solid #ff0000;
+            width: 100px;
+            height: 100px;
+        }
+        /* #선택자 -> 아이디 선택자 */
+        #d1{
+            background-color: #ffff00 ;
+        }
+        #d2{
+            background-color: #00ff00 ;
+        }
+        #d3{
+            background-color: #0000ff ;
+        }
+        /* 클래스 선택자 태그.클래스명, 태그가 생략되면 div태그 */
+        /* 하나 이상의 태그를 선택시 사용, 가장 많이 사용 */
+        div.d4{
+            /* 배경색 */
+            background-color: #000000 ;
+            /* 글자색 */
+            color: #ffffff ;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">div태그</div>
+    <div id="d2">div</div>
+    <div id="d3">div</div>
+    <div class="d4">div</div>
+    <div class="d4">div</div>
+</body>
+</html>
