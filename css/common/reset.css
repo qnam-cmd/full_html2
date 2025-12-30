@@ -5,3 +5,7 @@
     html,body{
         width: 100%;
     }
+    ul,li{
+        /* 목록스타일 */
+        list-style: none;
+    }

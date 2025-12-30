@@ -1,0 +1,13 @@
+@import url(./common/reset.css);
+/*block5*/
+/* div 클래스명 header 선택 */
+/* div는 생략가능 */
+.header{
+    border: 1px solid #ff0000;
+}
+.container{
+    border: 1px dashed #ff00ff;
+}
+.footer{
+    border: 1px dotted #00ff00
+}

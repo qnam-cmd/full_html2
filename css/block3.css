@@ -1,0 +1,34 @@
+@import url(./common/reset.css);
+/* block3 */
+h1{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    color: #ffffff
+    /* font-size: 16px; */
+}
+h2{
+    width: 200px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+h3{
+    width: 300px;
+    /* 하위컨텐츠height에 따라 자동 */
+    height: auto;
+    background-color: aqua;
+}
+h4{
+    width: 100%;
+    heigth: 150px;
+    background-color: #cccccc;
+}
+h5{
+    background-color: #000000;
+    color: #ffffff
+}
+h6{
+    width: 50%;     /* 브라우저 width 1/2 , border 포함 */
+    height: 20vh;   /* 브라우저 height 1/5 , 100vh ==브라우저height */
+    background-color: #00ff00;
+}
